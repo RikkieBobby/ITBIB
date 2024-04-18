@@ -32,6 +32,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '8000-rikkiebobby-itbib-5hjgf6hldgz.ws-eu110.gitpod.io',
     '.herokuapp.com',
+    '8000-rikkiebobby-itbib-q51xl0pqjrp.ws-eu110.gitpod.io',
 ]
 
 
@@ -92,6 +93,13 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeanyapp.com",
+    "https://*.herokuapp.com",
+    "https://8000-rikkiebobby-itbib-q51xl0pqjrp.ws-eu110.gitpod.io",
+]
 
 
 # Password validation
