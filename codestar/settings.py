@@ -27,12 +27,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'OB9cMmdw7I'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-rikkiebobby-itbib-5hjgf6hldgz.ws-eu110.gitpod.io',
     '.herokuapp.com',
     '8000-rikkiebobby-itbib-q51xl0pqjrp.ws-eu110.gitpod.io',
+    '8000-rikkiebobby-itbib-w29qf6xr4eu.ws-eu110.gitpod.io',
 ]
 
 
