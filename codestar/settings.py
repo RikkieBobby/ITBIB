@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'OB9cMmdw7I'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-rikkiebobby-itbib-5hjgf6hldgz.ws-eu110.gitpod.io',
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_summernote',
     'blog',
 ]
 
@@ -100,6 +101,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
     "https://8000-rikkiebobby-itbib-q51xl0pqjrp.ws-eu110.gitpod.io",
+    "https://8000-rikkiebobby-itbib-w29qf6xr4eu.ws-eu110.gitpod.io",
 ]
 
 
