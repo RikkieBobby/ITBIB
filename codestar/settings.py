@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     '.herokuapp.com',
     '8000-rikkiebobby-itbib-q51xl0pqjrp.ws-eu110.gitpod.io',
     '8000-rikkiebobby-itbib-w29qf6xr4eu.ws-eu110.gitpod.io',
+    '8000-rikkiebobby-itbib-71rla8i07tg.ws-eu112.gitpod.io',
 ]
 
 
@@ -49,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote',
     'blog',
+    'about',
 ]
 
 MIDDLEWARE = [
@@ -104,6 +106,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://8000-rikkiebobby-itbib-q51xl0pqjrp.ws-eu110.gitpod.io",
     "https://8000-rikkiebobby-itbib-w29qf6xr4eu.ws-eu110.gitpod.io",
+    "https://8000-rikkiebobby-itbib-71rla8i07tg.ws-eu112.gitpod.io",
 ]
 
 
