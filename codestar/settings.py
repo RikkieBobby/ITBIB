@@ -38,7 +38,8 @@ ALLOWED_HOSTS = [
     '8000-rikkiebobby-itbib-71rla8i07tg.ws-eu112.gitpod.io',
     '8000-rikkiebobby-itbib-83a4lbngu18.ws-eu110.gitpod.io',
     '8000-rikkiebobby-itbib-0hz4jfab5hf.ws-eu111.gitpod.io',
-    '8000-rikkiebobby-itbib-7d7hiz0jkw4.ws-eu111.gitpod.io'
+    '8000-rikkiebobby-itbib-7d7hiz0jkw4.ws-eu111.gitpod.io',
+    '8000-rikkiebobby-itbib-dgmvv066x4c.ws-eu111.gitpod.io',
 ]
 
 
@@ -131,6 +132,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://8000-rikkiebobby-itbib-83a4lbngu18.ws-eu110.gitpod.io",
     "https://8000-rikkiebobby-itbib-0hz4jfab5hf.ws-eu111.gitpod.io",
     "https://8000-rikkiebobby-itbib-7d7hiz0jkw4.ws-eu111.gitpod.io",
+    "https://8000-rikkiebobby-itbib-dgmvv066x4c.ws-eu111.gitpod.io",
 ]
 
 
